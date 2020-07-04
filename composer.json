@@ -1,0 +1,21 @@
+{
+    "name": "api/mvc",
+    "description": "Chơi vui thôi",
+    "authors": [
+        {
+            "name": "Vinh Hiển",
+            "email": "hienvh00@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "controller/",
+            "Model\\": "model/",
+            "Core\\": "core/"
+        },
+        "files": [
+            "Core/Functions/function.php"
+        ]
+    }
+}
